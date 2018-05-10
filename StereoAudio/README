@@ -1,0 +1,8 @@
+The utility functions are implemented with an assumption of 16 bit PCM audio format.
+
+16-bit Mono   : 8bit-LSB+ 8bit-MSB  |  8bit-LSB+8bit-MSB
+	      	  16bit-Sample-1    |    16bit-Sample-2
+
+16-bit Stereo : Left Channel 	    |  Right Channel
+		8bit-LSB+8bit-MSB   |  8bit-LSB+8bit-MSB
+	      	16bit-Sample-1      |  16bit-Sample-2  
