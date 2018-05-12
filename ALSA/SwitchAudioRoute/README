@@ -1,0 +1,9 @@
+This program is used to dynamically switch the audio route between inbuilt speakers 
+and connected headphones by using ALSA API's.
+
+
+Dependencies: libasound2-dev
+
+Compilation : gcc -o switch.out Switch_AudioRoute.c -lasound
+
+Developed for Platform :  ARM Embedded Linux (TI Sitara AM437X EVM)  
